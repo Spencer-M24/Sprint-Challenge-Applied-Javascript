@@ -7,7 +7,7 @@ This challenge allows you to practice the concepts and techniques learned over t
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
 This is an individual assessment. All work must be your own. Your challenge score is a measure of your ability to work independently using the material covered through this sprint. You need to demonstrate proficiency in the concepts and objectives introduced and practiced in preceding days.
-
+     
 You are not allowed to collaborate during the Sprint Challenge. However, you are encouraged to follow the twenty-minute rule and seek support from your PM and Instructor in your cohort help channel on Slack. Your work reflects your proficiency in Applied JavaScript.
 
 You have three hours to complete this challenge. Plan your time accordingly.
@@ -30,15 +30,45 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the DOM?
+1. Q: What is the DOM?
+   
+   A: The Dom stands for Document Object Model (application programming interface). Which represents the HTML elements of the webpage that you see. So, basically use the DOM when we interact with webpages to add content or even to remove and change content.
 
-2. What is an event?
 
-3. What is an event listener?
 
-4. Why would we convert a NodeList into an Array?
 
-5. What is a component?
+
+
+2.  Q: What is an event?
+   
+    A: The event is when the user views the webpage, Also when actions occurs, or a condition that is met. For example hoving over a picture in a gallery or is an event or scrolling down the page up and down on the website. So, in summary  an event is when a user interacts with a website.
+
+
+
+
+3.  Q: What is an event listener?
+    
+    
+    A: An event listener is where you run a block of code. When a user does an action like hovers over an  image then performs, a function.
+        It allows you to keep track of or montior html elements. When a user interacts, with them it performs functions.
+
+
+
+
+4.  Q: Why would we convert a NodeList into an Array?
+    
+    A: The Arrays has more methods simply. The node list does not have much or many options. In turn an Array has plenty of methods like forEach
+    and map() and so on.
+
+
+5. Q: What is a component?
+    
+    
+   A: Components are reusable peices of code, that can be used to build elements. So basiaclly its a reuseable set of logics and behvaiors and interfaces element.
+
+
+
+
 
 ### Git Set up
 
@@ -56,7 +86,7 @@ Your finished project must include all of the following requirements:
 * [ ] Following the instructions in the `Tabs.js` file, complete the `TabLink`, and `TabCard` class components. It will look and feel very similar to the last project we worked on, but with a twist. Now, instead of one `Item` to display, we will need to display a collection of `Cards`. Think about ways to iterate over an array and manipulate each item.  **Note: You will need to un-comment the code after the lines of instructions.  The code is commented out so you can work error-free**
 
 * [ ] Once you get your `Tab` component working properly add a couple more articles yourself and check out how it works.
-
+ 
 ## Stretch Problems
 
 Your stretch challenge is to write the functionality of a `Carousel` component. You have the HTML and CSS already in place, simply un-comment the HTML in the `index.html` file. This is an advanced challenge, so you are not expected to be able to complete it. If you begin and don't finish, you should still submit with what you have. You may reference the `Tabs.js` file for assistance.
